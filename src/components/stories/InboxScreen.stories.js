@@ -1,7 +1,7 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { Provider } from 'react-redux';
-import { InboxScreen } from './InboxScreen';
+import { InboxScreen } from '../InboxScreen';
 import { defaultTasksData } from './TaskList.stories';
 
 export default {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { withKnobs, object } from '@storybook/addon-knobs/react';
-import Task from './Task';
+import Task from '../Task';
 
 export default {
     component: Task,
