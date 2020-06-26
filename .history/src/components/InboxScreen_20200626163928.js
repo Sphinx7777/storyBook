@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+
 import TaskList from './TaskList';
 
 export function InboxScreen({ error }) {
@@ -20,7 +21,7 @@ export function InboxScreen({ error }) {
         <div className="page lists-show">
             <nav>
                 <h1 className="title-page">
-                    <span className="title-wrapper">TaskBox</span>
+                    <a className="title-wrapper" href='http://localhost:9009/?path=/story/task--default'>Taskbox</a>
                 </h1>
             </nav>
             <TaskList />

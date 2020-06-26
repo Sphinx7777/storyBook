@@ -859,11 +859,14 @@ a:focus {
 	flex: 1;
 }
 .list-item input[type="text"] {
+	border: 2px solid transparent;
 	background: transparent;
 	width: 100%;
 }
 .list-item input[type="text"]:focus {
 	cursor: text;
+	border: 2px solid green;
+	box-sizing: border-box;
 }
 .list-item .actions {
 	transition: all 200ms ease-in;
