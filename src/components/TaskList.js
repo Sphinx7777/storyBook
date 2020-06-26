@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Task from './Task';
 import { connect } from 'react-redux';
 import { archiveTask, pinTask } from '../lib/redux';
+import s from './test.module.scss'
 
 export function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {
     const events = {
@@ -37,7 +38,7 @@ export function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {
             <div className="list-items">
                 <div className="wrapper-message">
                     <span className="icon-check" />
-                    <div className="title-message redBg">You have no tasks</div>
+                    <div className={s.redBg}>You have no tasks</div>
                     <div className="subtitle-message">Sit back and relax</div>
                 </div>
             </div>

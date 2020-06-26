@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './test.scss'
 
 
 export default function Task({ task: { id, title, state }, onArchiveTask, onPinTask }) {
