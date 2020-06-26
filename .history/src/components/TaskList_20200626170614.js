@@ -38,7 +38,7 @@ export function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {
                 <div className="wrapper-message">
                     <span className="icon-check" />
                     <div className="title-message redBg">You have no tasks</div>
-                    <div className="subtitle-message">Sit back and relax</div>
+                    <div className="subtitle-message redBg">Sit back and relax</div>
                 </div>
             </div>
         );

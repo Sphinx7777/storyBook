@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Task from './Task';
 import { connect } from 'react-redux';
 import { archiveTask, pinTask } from '../lib/redux';
-
+import './test.scss'
 export function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {
     const events = {
         onPinTask,

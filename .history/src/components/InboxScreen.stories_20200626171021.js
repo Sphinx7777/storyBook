@@ -8,7 +8,7 @@ import { defaultTasksData } from './TaskList.stories';
 export default {
     component: InboxScreen,
     title: 'InboxScreen',
-    decorators: [story => <Provider store={store}>{story()}</Provider>]
+    decorators: [story => <Provider store={store}>{story()}</Provider>],
 };
 
 const store = {

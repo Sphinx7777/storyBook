@@ -1,6 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import store from './lib/redux';
+import './test.scss'
 import InboxScreen from './components/InboxScreen';
 
 
